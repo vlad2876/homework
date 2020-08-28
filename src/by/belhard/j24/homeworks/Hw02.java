@@ -19,7 +19,7 @@ boolean a1 = true, b1 = false;
 
         // Задание 2
 
-int r = 12;
+int r = 11;
 double p = 3.1415;
         System.out.println("Площадь " + ((r * r) * p));
         System.out.println("Длина " + ((2 * p) * r));
@@ -29,7 +29,7 @@ double p = 3.1415;
 
         // Задание 3
 
-int temp = 24;
+int temp = 23;
         {
             String odejda = temp > 30 ? "Я бы дома остался в такую жару" : (temp > 20 ? "Маечка, шортики и погнал" : temp > 15 ? "Худи по-тоньше" : temp > 10 ? "Можно расстегнуть куртку" : temp >= 0 ? "Онли куртка" : null);
 
@@ -42,20 +42,19 @@ int temp = 24;
         // Задание 4
 
 int zp1 = 964, zp2 = 341, zp3 = 582;
-        System.out.print("Разница межнду самой высокой и маленькой зарплатой " + (zp1 - zp2) + ("р"));
+        System.out.print("Разница между самой высокой и маленькой зарплатой " + (zp1 - zp2) + ("р"));
 
         System.out.println();
         System.out.println();
         System.out.println("Задание 5");
 
 
-/* Задание 5 (Незнаю можно ли так, но это Math.pow в интернете нашел, просто так можно
-переменные менять на любые числа, а сам пока могу только два каких-то конкретных числа попробовать
-возвести в степень. Если не катит, могу переделать сам вобщем)
+/* Задание 5 (Незнаю можно ли так, но этот Math.pow в интернете нашел, просто так как-то проще получается.
+ Если не катит, могу попробовать сам вобщем)
  */
 
-        int z = 4;
-        int x = 3;
+        int z = 5;
+        int x = 2;
         System.out.println("Число z в степени x равно " + Math.pow(z, x));
 
         System.out.println();
@@ -64,14 +63,14 @@ int zp1 = 964, zp2 = 341, zp3 = 582;
         // Задание 6
 
 double startSum = 500;
-int years = 6;
+int years = 5;
         double proc;
 
 
 
             for (int n = 1; n <= years; n++){
                 startSum = (startSum - ((startSum * 1) / 100));
-                proc = startSum * 4 / 100;
+                proc = startSum * 3 / 100;
                 startSum = startSum + proc;
 
             }
