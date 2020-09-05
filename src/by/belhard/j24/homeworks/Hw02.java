@@ -8,8 +8,8 @@ public class Hw02 {
 
 // Задание 1
 
-int a = 248, b = 31;
-boolean a1 = true, b1 = false;
+        int a = 248, b = 31;
+        boolean a1 = true, b1 = false;
         System.out.println(((a / b + 2) * 5) % 20);
         System.out.println(a != b);
         System.out.println(!a1 || b1);
@@ -19,8 +19,8 @@ boolean a1 = true, b1 = false;
 
         // Задание 2
 
-int r = 11;
-double p = 3.1415;
+        int r = 11;
+        double p = 3.1415;
         System.out.println("Площадь " + ((r * r) * p));
         System.out.println("Длина " + ((2 * p) * r));
 
@@ -29,7 +29,7 @@ double p = 3.1415;
 
         // Задание 3
 
-int temp = 23;
+        int temp = 23;
         {
             String odejda = temp > 30 ? "Я бы дома остался в такую жару" : (temp > 20 ? "Маечка, шортики и погнал" : temp > 15 ? "Худи по-тоньше" : temp > 10 ? "Можно расстегнуть куртку" : temp >= 0 ? "Онли куртка" : null);
 
@@ -41,7 +41,7 @@ int temp = 23;
 
         // Задание 4
 
-int zp1 = 964, zp2 = 341, zp3 = 582;
+        int zp1 = 964, zp2 = 341, zp3 = 582;
         System.out.print("Разница между самой высокой и маленькой зарплатой " + (zp1 - zp2) + ("р"));
 
         System.out.println();
@@ -62,18 +62,17 @@ int zp1 = 964, zp2 = 341, zp3 = 582;
 
         // Задание 6
 
-double startSum = 500;
-int years = 5;
+        double startSum = 500;
+        int years = 5;
         double proc;
 
 
+        for (int n = 1; n <= years; n++) {
+            startSum = (startSum - ((startSum * 1) / 100));
+            proc = startSum * 3 / 100;
+            startSum = startSum + proc;
 
-            for (int n = 1; n <= years; n++){
-                startSum = (startSum - ((startSum * 1) / 100));
-                proc = startSum * 3 / 100;
-                startSum = startSum + proc;
-
-            }
+        }
         double newSum = startSum;
         System.out.println(newSum);
 
