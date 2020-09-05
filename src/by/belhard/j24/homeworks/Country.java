@@ -1,4 +1,4 @@
-package by.belhard.j24.lessons;
+package by.belhard.j24.homeworks;
 
 public class Country {
 
