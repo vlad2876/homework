@@ -1,18 +1,17 @@
 package by.belhard.j24.homeworks;
 
 public class Person {
+
     public String name;
     public int age;
     Country country;
     Sex sex;
 
-    Person p1 = new Person("Stepan", 23, Sex.MALE, "Russia", 258357);
 
-
-    public Person(String name, int age, Sex sex, String countryName, int countryZipCode) {
+    public Person(String name, int age, Sex sex, Country country) {
         this.name = name;
         this.age = age;
-        this.country = new Country(countryName, countryZipCode);
+        this.country = country;
         this.sex = sex;
     }
 

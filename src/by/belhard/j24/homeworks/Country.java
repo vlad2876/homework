@@ -2,7 +2,11 @@ package by.belhard.j24.homeworks;
 
 public class Country {
 
-    public Country(String countryName, int countryZipCode) {
+    String title;
+    int zipCode;
 
+    public Country(String title, int zipCode) {
+        this.title = title;
+        this.zipCode = zipCode;
     }
 }
