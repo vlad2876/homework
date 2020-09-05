@@ -1,8 +1,8 @@
 package by.belhard.j24.homeworks;
 
 public class Person {
-    String name;
-    int age;
+    public String name;
+    public int age;
     Country country;
     Sex sex;
 
