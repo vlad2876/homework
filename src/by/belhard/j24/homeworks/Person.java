@@ -26,4 +26,9 @@ public class Person {
     public int growOld() {
         return ++age;
     }
+
+
+    public void say() {
+        System.out.println("Hello");
+    }
 }
