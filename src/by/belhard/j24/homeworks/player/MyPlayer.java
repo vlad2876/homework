@@ -1,4 +1,4 @@
-package by.belhard.j24.homeworks;
+package by.belhard.j24.homeworks.player;
 
 public class MyPlayer {
     public static void main(String[] args) {

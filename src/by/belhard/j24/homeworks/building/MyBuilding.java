@@ -1,4 +1,4 @@
-package by.belhard.j24.homeworks;
+package by.belhard.j24.homeworks.building;
 
 public class MyBuilding {
     public static void main(String[] args) {
