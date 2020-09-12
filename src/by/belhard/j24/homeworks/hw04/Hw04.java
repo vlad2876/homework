@@ -1,4 +1,4 @@
-package by.belhard.j24.homeworks;
+package by.belhard.j24.homeworks.hw04;
 
 public class Hw04 {
     public static void main(String[] args) {

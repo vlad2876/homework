@@ -1,4 +1,4 @@
-package by.belhard.j24.homeworks.player;
+package by.belhard.j24.homeworks.hw04.player;
 
 public class Coordinates {
     int x;

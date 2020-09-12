@@ -1,4 +1,4 @@
-package by.belhard.j24.homeworks.building;
+package by.belhard.j24.homeworks.hw04.building;
 
 public class Building {
     String type;

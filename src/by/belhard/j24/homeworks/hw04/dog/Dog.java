@@ -1,4 +1,4 @@
-package by.belhard.j24.homeworks.dog;
+package by.belhard.j24.homeworks.hw04.dog;
 
 public class Dog {
     String name;
