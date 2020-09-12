@@ -11,6 +11,22 @@ public class Book {
         this.pages = pages;
         this.format = format;
         this.author = author;
+
+        if(this.pages < 2){
+            setPages(3);
+        }
+        if(author.name == null || author.name.equals(" ")){
+            author.setName("Unknown");
+        }
+        if(author.surname == null || author.surname.equals(" ")){
+            author.setSurname("Unknown");
+        }
+        if(author.age < 2){
+            author.setAge(3);
+        }
+        if(this.title == null || title.equals(" ")){
+            setTitle("Unknown");
+        }
     }
 
     @Override
