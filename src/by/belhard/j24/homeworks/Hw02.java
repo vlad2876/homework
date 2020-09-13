@@ -1,5 +1,7 @@
 package by.belhard.j24.homeworks;
 
+import java.util.Scanner;
+
 public class Hw02 {
     public static void main(String[] args) {
 
@@ -18,8 +20,8 @@ public class Hw02 {
         System.out.println("Задание 2");
 
         // Задание 2
-
-        int r = 11;
+        Scanner in = new Scanner(System.in);
+        int r = in.nextInt();
         double p = 3.1415;
         System.out.println("Площадь " + ((r * r) * p));
         System.out.println("Длина " + ((2 * p) * r));
