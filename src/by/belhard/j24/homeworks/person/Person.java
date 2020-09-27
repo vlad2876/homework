@@ -11,6 +11,11 @@ public class Person {
         this.pet = pet;
     }
 
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
     Dog dog = new Dog();
     Fish fish = new Fish();
 
